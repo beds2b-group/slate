@@ -2,6 +2,8 @@ FROM ruby:2.6-slim
 
 WORKDIR /srv/slate
 
+EXPOSE 4567
+
 COPY Gemfile .
 COPY Gemfile.lock .
 

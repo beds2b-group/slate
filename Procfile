@@ -1,1 +1,1 @@
-web: deploy.sh
+web: npm run serve

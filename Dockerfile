@@ -22,7 +22,7 @@ COPY . /srv/slate
 
 RUN chmod +x /srv/slate/slate.sh
 
-RUN bundle exec middleman server -p 4567
+# RUN bundle exec middleman server -p 4567
 
 ENTRYPOINT ["/srv/slate/slate.sh"]
 

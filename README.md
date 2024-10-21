@@ -13,8 +13,13 @@
 
 Run Application
 ------------
-
-Execute the command bundle exec middleman server -p 4567 in server
+Bajate el proyecto del repositorio
+Ejecuta el comando para añadir SANDBOX en tus ramas locales
+Asegúrate de que el fichero Dockerfile no tiene el comando de bundle exec
+Haz git push SANDBOX
+Entra en el servidor, busca el contenendor y entra en él.
+Una vez dentro ejecuta el siguiente comando:
+bundle exec middleman server -p 4567 in server
 
 Features
 ------------
